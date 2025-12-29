@@ -1,9 +1,9 @@
 services:
   enricher:
-    build: .
+    image: ghcr.io/YOUR_USERNAME/ytmusic-track-enricher:latest  # <-- change YOUR_USERNAME
     container_name: ytmusic-track-enricher
     restart: unless-stopped
     volumes:
-      - /path/to/your/music:/music
+      - /path/to/your/music:/music  # <-- change this path
     environment:
       - SCAN_INTERVAL=3600  # 1 hour (in seconds)
