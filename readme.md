@@ -3,9 +3,9 @@ Docker Container to be used in conjunction with ```PranavVerma-droid/Synthwave``
 ## Config
 
 ### Env
-SCAN_INTERVAL=3600  # 1 hour (in seconds) - how often to scan for files without track number
+```SCAN_INTERVAL=3600```  # 1 hour (in seconds) - how often to scan for files without track number
 
 ### Volumes
-- /path/to/your/music:/music  # Path to your music directory
+```/path/to/your/music:/music  # Path to your music directory```
 
 Disclaimer: AI-made (Claude Code)
