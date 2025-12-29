@@ -1,6 +1,6 @@
 services:
   enricher:
-    image: ghcr.io/YOUR_USERNAME/ytmusic-track-enricher:latest  # <-- change YOUR_USERNAME
+    image: ghcr.io/siracacl/ytmusic-track-enricher:latest
     container_name: ytmusic-track-enricher
     restart: unless-stopped
     volumes:
