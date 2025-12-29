@@ -1,0 +1,9 @@
+services:
+  enricher:
+    build: .
+    container_name: ytmusic-track-enricher
+    restart: unless-stopped
+    volumes:
+      - /path/to/your/music:/music
+    environment:
+      - SCAN_INTERVAL=3600  # 1 hour (in seconds)
